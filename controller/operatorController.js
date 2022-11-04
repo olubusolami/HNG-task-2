@@ -28,7 +28,7 @@ exports.hngtask = function (req, res) {
     } else {
       return res
         .status(200)
-        .json({ SlackName: "Olúbùsọ́lá", operation_type, result });
+        .json({ slackUsername: "Olúbùsọ́lá", operation_type, result });
     }
   };
   
